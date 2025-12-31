@@ -1,0 +1,29 @@
+# RAG索引总配置
+
+# 知识库基础路径
+base_path: .
+
+# 文档目录
+# 道层文档路径
+dao_path: 01-dao
+# 术层文档路径
+shu_path: 02-shu
+
+# 索引输出目录
+index_output_dir: rag-index/indexes
+
+# 文档映射文件
+doc_mapping_file: rag-index/doc-mapping.md
+
+# 索引模板文件
+index_template_file: rag-index/template.yaml
+
+# 文档ID前缀
+# 道层文档ID前缀
+dao_id_prefix: DOC-D
+# 术层文档ID前缀
+shu_id_prefix: DOC-S
+
+# 文档编号规则
+# 道层文档从001开始
+# 术层文档从001开始
